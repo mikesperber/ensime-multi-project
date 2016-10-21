@@ -1,0 +1,36 @@
+(
+ :root-dir "/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar"
+ :cache-dir "/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/.ensime_cache"
+ :scala-compiler-jars ("/afs/informatik.uni-tuebingen.de/home/sperber/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.8.jar" "/afs/informatik.uni-tuebingen.de/home/sperber/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar" "/afs/informatik.uni-tuebingen.de/home/sperber/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar" "/afs/informatik.uni-tuebingen.de/home/sperber/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.11.8.jar")
+ :name "bar"
+ :java-home "/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home"
+ :java-flags ("-Xss2m" "-Xms1024m" "-Xmx1024m" "-XX:ReservedCodeCacheSize=128m" "-XX:MaxMetaspaceSize=256m")
+ :java-compiler-args nil
+ :reference-source-roots ("/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip")
+ :scala-version "2.11.8"
+ :compiler-args ("-feature" "-deprecation" "-Xlint" "-Yinline-warnings" "-Yno-adapted-args" "-Ywarn-dead-code" "-Ywarn-numeric-widen" "-Xfuture" "-Ywarn-unused-import" "-Ymacro-expand:discard")
+ :formatting-prefs nil
+ :disable-source-monitoring nil
+ :disable-class-monitoring nil
+ :subprojects ((
+   :name "foo"
+   :source-roots nil
+   :targets ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/foo/target/scala-2.11/classes")
+   :test-targets ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/foo/target/scala-2.11/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/afs/informatik.uni-tuebingen.de/home/sperber/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :doc-jars ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/foo/target/scala-2.11/hello_2.11-1.0-javadoc.jar" "/afs/informatik.uni-tuebingen.de/home/sperber/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.8-javadoc.jar")
+   :reference-source-roots ("/afs/informatik.uni-tuebingen.de/home/sperber/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar")) (
+   :name "root"
+   :source-roots nil
+   :targets ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/target/scala-2.11/classes")
+   :test-targets ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/target/scala-2.11/test-classes")
+   :depends-on-modules ("foo")
+   :compile-deps nil
+   :runtime-deps nil
+   :test-deps nil
+   :doc-jars ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/target/scala-2.11/name-matching_2.11-1.0-javadoc.jar")
+   :reference-source-roots nil))
+)
