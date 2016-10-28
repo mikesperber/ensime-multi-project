@@ -14,23 +14,23 @@
  :disable-class-monitoring nil
  :subprojects ((
    :name "foo"
-   :source-roots nil
-   :targets ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/foo/target/scala-2.11/classes")
-   :test-targets ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/foo/target/scala-2.11/test-classes")
+   :source-roots ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/foo/src/main/scala" "/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/foo/src/test/scala")
+   :targets ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/foo/target/scala-2.11/classes")
+   :test-targets ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/foo/target/scala-2.11/test-classes")
    :depends-on-modules nil
    :compile-deps ("/afs/informatik.uni-tuebingen.de/home/sperber/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar")
    :runtime-deps nil
    :test-deps nil
-   :doc-jars ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/foo/target/scala-2.11/hello_2.11-1.0-javadoc.jar" "/afs/informatik.uni-tuebingen.de/home/sperber/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.8-javadoc.jar")
+   :doc-jars ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/foo/target/scala-2.11/foo_2.11-1.0-javadoc.jar" "/afs/informatik.uni-tuebingen.de/home/sperber/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.8-javadoc.jar")
    :reference-source-roots ("/afs/informatik.uni-tuebingen.de/home/sperber/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar")) (
    :name "root"
-   :source-roots nil
+   :source-roots ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/src/main/scala" "/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/src/test/scala")
    :targets ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/target/scala-2.11/classes")
    :test-targets ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/target/scala-2.11/test-classes")
    :depends-on-modules ("foo")
    :compile-deps nil
    :runtime-deps nil
    :test-deps nil
-   :doc-jars ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/target/scala-2.11/name-matching_2.11-1.0-javadoc.jar")
+   :doc-jars ("/afs/informatik.uni-tuebingen.de/home/sperber/soft/commerzbank/ensime-problem/bar/target/scala-2.11/bar_2.11-1.0-javadoc.jar")
    :reference-source-roots nil))
 )

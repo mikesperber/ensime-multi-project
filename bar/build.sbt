@@ -1,7 +1,7 @@
-lazy val foo = file("../foo")
+lazy val foo = RootProject(file("./foo"))
 
 lazy val root = (project in file(".")).
   settings(
-    name         := "Name matching",
+    name         := "bar",
     version      := "1.0",
     scalaVersion := "2.11.8").dependsOn(foo)
